@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="icons/icons8-nasa-48.svg" />
+    <title>Nasotta</title>
+  </head>
+
+  <body>
+    <section class="hero is-dark">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title" id="titolo">
+            SPACE CORE<img src="icons/icons8-nasa-48.svg" />
+          </h1>
+        </div>
+      </div>
+    </section>
+    <div class="columns">
+      <div class="column"><div id="player"></div></div>
+      <div class="column">
+        <blockquote class="twitter-tweet" data-lang="it">
+          <p lang="en" dir="ltr">
+            Administrator
+            <a href="https://twitter.com/JimBridenstine?ref_src=twsrc%5Etfw"
+              >@JimBridenstine</a
+            >
+            &amp; Russian Space Agency
+            <a href="https://twitter.com/roscosmos?ref_src=twsrc%5Etfw"
+              >@ROSCOSMOS</a
+            >
+            General Director Dmitry
+            <a href="https://twitter.com/Rogozin?ref_src=twsrc%5Etfw"
+              >@Rogozin</a
+            >
+            had a teleconference today where they discussed further cooperation
+            in space, as well as the prospect of a meeting.
+            <a href="https://t.co/TszlMjfKWp">https://t.co/TszlMjfKWp</a>
+          </p>
+          &mdash; NASA (@NASA)
+          <a
+            href="https://twitter.com/NASA/status/1084962662197260288?ref_src=twsrc%5Etfw"
+            >14 gennaio 2019</a
+          >
+        </blockquote>
+        <script
+          async
+          src="https://platform.twitter.com/widgets.js"
+          charset="utf-8"
+        ></script>
+      </div>
+    </div>
+    <div id="camerasList"></div>
+    <ul id="photosList"></ul>
+    <script src="youtube.js"></script>
+    <script src="rover.js"></script>
+  </body>
+</html>
